@@ -3,10 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	price, inStock := 23, false
+	price , inStock :=  19, false;
 
-	if price > 20 && inStock {
+
+	// else starts from the closing brackets line
+
+	if price >= 20 && inStock {
 		fmt.Println("Available")
+	}else if inStock == false {
+		fmt.Println("Unavailable");
+	}else {
+		fmt.Println("Unknown")
 	}
+	
+	
 
 }
+ 
