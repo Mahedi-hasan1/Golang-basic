@@ -6,7 +6,7 @@ func main() {
 	price , inStock :=  19, false;
 
 
-	// else starts from the closing brackets line
+	// start else from the closing brackets line
 
 	if price >= 20 && inStock {
 		fmt.Println("Available")

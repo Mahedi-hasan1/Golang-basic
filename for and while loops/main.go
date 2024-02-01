@@ -27,7 +27,8 @@ func main(){
 		}else if (i>10){
 			break;
 		}
-		fmt.Print(i, " ");  		//	0 2 4 6 8 10  
+		fmt.Print(i, " ");  		//	0 2 4 6 8 10
+		  
 	}
 	fmt.Println()
 
